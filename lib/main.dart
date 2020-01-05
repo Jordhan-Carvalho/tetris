@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import './screens/gameScreen.dart';
 import './menu.dart';
 
-const double WIDTH = 300;
-const double HEIGHT = 400;
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

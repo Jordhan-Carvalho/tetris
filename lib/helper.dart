@@ -48,3 +48,22 @@ Widget generatePoint(Color color) {
     ),
   );
 }
+
+Widget getGameOverText(int score) {
+  return Center(
+    child: Text(
+      'Game Over\nEnd Score: $score',
+      style: TextStyle(
+          fontSize: 35.0,
+          fontWeight: FontWeight.bold,
+          color: Colors.blue,
+          shadows: [
+            Shadow(
+              color: Colors.black,
+              blurRadius: 3.0,
+              offset: Offset(2.0, 2.0),
+            )
+          ]),
+    ),
+  );
+}
